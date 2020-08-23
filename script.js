@@ -82,6 +82,7 @@ function game(uchoice){
     }
 }
 function main(){
+    
     rock.addEventListener('click',function(){
         game("r");  
       });
