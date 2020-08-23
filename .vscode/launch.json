@@ -9,7 +9,7 @@
             "type": "pwa-chrome",
             "request": "launch",
             "name": "Launch Chrome",
-            "url": "D://rock-paper-scissors/index.html",
+            "url": "D://rock-paper-scissor/index.html",
             "webRoot": "${workspaceFolder}"
         }
     ]

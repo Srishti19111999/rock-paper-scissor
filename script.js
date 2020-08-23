@@ -28,7 +28,7 @@ function win(user,comp){
     uscore++;
     user_score.innerHTML = uscore;
     comp_score.innerHTML = cscore;
-    result.innerHTML=`${convert(user)}${user_ch} beats ${convert(comp)}${comp_ch}<br><br>Congrats You Won!`;
+    result.innerHTML=`${convert(user)}${user_ch} beats ${convert(comp)}${comp_ch}<br><br>Congrats You Win!`;
     document.getElementById(user).classList.add('green-glow');
     setTimeout(e => {document.getElementById(user).classList.remove('green-glow')},500);
 }
